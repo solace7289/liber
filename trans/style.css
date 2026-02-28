@@ -10,7 +10,7 @@
     align-items: center;
     position: relative;
     min-height: 100vh;
-    min-weight: 100vh;
+    min-width: 100vh;
     background: #282828;
 }
 
