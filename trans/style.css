@@ -4,6 +4,45 @@
     box-sizing: border-box;
 }
 
+/* tab-bar */
+
+.tab-bar {
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    background-color: #ffff24;
+}
+
+.icon {
+    background-color: #f2f2f2;
+    width: 100px;
+    height: 100%;
+}
+
+.bar {
+    display: grid;
+    place-items: center;
+    color: #282828; 
+    width: 150px;
+
+    /* background-color: #282828; */
+    align-items: center;
+    transition: all 0.2s ease 0s;
+}
+
+.bar:hover {
+    font-size: larger;
+    font-style: bold;
+    width: 200px;
+    height: 110%;
+    color: #fff;
+    background-color: orange;
+}
+
+/* main */
+
 .container {
     display: flex;
     justify-content: center;
@@ -19,9 +58,8 @@
     width: 200px;
     background: #ffff24;
     
-    transition: transform 1s ease 0s,
-    background-color 1s ease-out 0.5s;
-
+    transition: transform 0.3s ease 0s,
+    background-color 0.2s ease-out 0s;
 
 }
 
