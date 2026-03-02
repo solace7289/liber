@@ -83,6 +83,29 @@ npm install
 npm run dev
 
 
+---
+
+## 6. Ảnh
+
+Có nhiều cách, nhưng có một cách để dễ điều chỉnh là dùng thẻ HTML:
+
+```bash
+### Căn giữa ảnh
+
+Markdown không có căn giữa, dùng HTML:
+
+<p align="center">
+  <img src="images/demo.png" width="500">
+</p>
+
+👉 Cách này rất hay dùng khi làm banner hoặc screenshot chính.
+
+
+
+
+
+
+
 
 
 
