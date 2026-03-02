@@ -100,7 +100,9 @@ Markdown không có căn giữa, dùng HTML:
 
 👉 Cách này rất hay dùng khi làm banner hoặc screenshot chính.
 
-
+<p align="center">
+    <img src="images/linux_structure.png" width="600px">
+</p>
 
 
 
