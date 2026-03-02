@@ -23,6 +23,22 @@
 }
 
 `    
+### ul - li
+
+-  use: `text-decoration: none;` to remove tag link a from decoration.
+
+- In tag ul: use `list-style: none;` to remove dot in each link.
+
+- And use tag `navbar` in html file to create navbar instead of using div.
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,41 +4,56 @@
     box-sizing: border-box;
 }
 
-/* tab-bar */
+/* nav-bar */
 
-.tab-bar {
+.navbar {
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: flex-start;
-    top: 0;
-    left: 0;
+    justify-content: space-between;
+    background: #ffff24;
+    color: #181717;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding: 20px; */
     height: 5vh;
-    background-color: #ffff24;
-}
-
-.icon {
-    background-color: #f2f2f2;
-    width: 100px;
-    height: 100%;
-}
-
-.bar {
-    display: grid;
-    place-items: center;
-    color: #282828; 
-    width: 150px;
-
-    /* background-color: #282828; */
     align-items: center;
-    transition: all 0.2s ease 0s;
 }
 
-.bar:hover {
-    font-size: larger;
-    font-style: bold;
-    width: 200px;
-    height: 110%;
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link a {
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    color: #181717;
+    display: block;
+}
+
+.nav-link a:hover {
+    background: orange;
     color: #fff;
-    background-color: orange;
+    font-size: 20px;
+    font-weight: 500;
+    border-color: orange;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 30px;
 }
 
 /* main */
