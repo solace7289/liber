@@ -97,6 +97,7 @@ Markdown không có căn giữa, dùng HTML:
 <p align="center">
   <img src="images/demo.png" width="500">
 </p>
+```
 
 👉 Cách này rất hay dùng khi làm banner hoặc screenshot chính.
 
