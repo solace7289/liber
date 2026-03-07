@@ -31,6 +31,17 @@
 
 - And use tag `navbar` in html file to create navbar instead of using div.
 
+### Some background color:
+
+- #FFF7FF
+- #13181C
+- #160505
+- #041B20
+- #F7FFFE
+- #0C0A15
+
+
+
 
 
 
